@@ -1,0 +1,224 @@
+*{
+    padding: 0px;
+
+    .header {
+        position: sticky;
+        top: 0;
+        padding: 10px 16px;
+        background: white;
+        opacity: 50%;
+        color: #353131;
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+    footer{
+        font-family: 'Courier New', Courier, monospace;
+        color: red;
+        text-align: center;
+    }
+}
+
+.HOMEPAGE{
+    background-image: url("https://i.imgur.com/GtFcRoz.png");
+    background-size: 100%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.NB {
+    padding: 10px 0px 0px 90px;
+    margin: auto;
+    text-align: center;
+}
+
+.ID1 {
+    padding: center;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    font-family: avenir;
+    font-size: 20px;
+    color: white;
+}
+
+.ID2 {
+    padding: center;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    font-family: courier;
+    font-size: 20px;
+    color: white;
+}
+
+.Menu {
+    width: 500px;
+    align-items: center;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    color: black;
+}
+
+.button1 {
+    margin-bottom: 0px;
+    height:62px;
+  display:block;
+    background-image: url(https://i.imgur.com/qQgWAuh.png); center top no-repeat;
+   background-size: 200px 62px;
+}
+
+.button1:hover {
+    margin-bottom: 0px;
+    height:62px;
+  display:block;
+    background-image: url(https://i.imgur.com/qQgWAuh.png); center top no-repeat;
+   background-size: 200px 62px;
+ }
+
+.IndexHouse {
+    width: 150px;
+    align: center;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1024px) {
+    body {
+
+    .VISUALDEVELOPMENT {
+        font-size: 50px;
+        text-wrap: wrap;
+        align: center;
+    }
+    
+    .ILLUSTRATION {
+        font-size: 50px;
+        text-wrap: wrap;
+    }
+
+    .icontainer {
+    }
+
+    .ABOUT {
+        margin-left: 40px;
+        font-size: 50px;
+        text-wrap: wrap;
+    }
+
+    .h1,h1 span {
+        margin-right: 250px;
+        font-size: 50px;
+        text-wrap: wrap;
+    }
+
+    .ID {
+        margin-right: 300px;
+        font-size: 20px;
+        text-wrap: wrap;
+    }
+
+    .Menu {
+        font-size: 20px;
+        text-wrap: wrap;
+    }
+    }
+}
+
+  /* MEDIA QUERY */
+@media screen and (min-width: 1025px) {
+    body {
+
+    .ABOUT {
+        margin-top: auto;
+        margin-right,bottom,left: 15px;
+        font-size: 130px;
+        text-wrap: wrap;
+    }
+
+    .Bio1,.Bio2,.Bio3 {
+        font-size: 18px;
+        text-wrap: wrap;
+    }
+    }
+  }
+
+.VISUALDEVELOPMENT {
+    padding: 50px 80px 0px 20px;
+    width: 1500px;
+    font-family: avenir;
+    color: black;
+    font-size: 100px
+}
+
+.vdp {
+    display: flex;
+
+    p {
+        padding: 10px 80px 0px 20px;
+        width: 700px;
+        font-family: 'Courier New', Courier, monospace;
+        color: red;
+        font-size: 20px;
+    }
+  }
+  
+  .vdcontainer {
+    flex: 50%;
+  }
+
+.ILLUSTRATION {
+    padding: 50px 80px 0px 20px;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 100px
+}
+
+.icontainer {
+        padding: 20px 20px 0px 20px;
+        display: flex,grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        grid-template-rows: masonry;
+}
+
+.ABOUT {
+    padding: 250px 0px 0px 0px;
+    letter-spacing: 2;
+    margin: auto;
+    width: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: 100px
+}
+
+
+.Bio1 {
+    margin: auto;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: 15px;
+}
+
+.Bio2 {
+    margin: auto;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: 15px;
+}
+
+.Bio3 {
+    margin: auto;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: 15px;
+}
+
+
+
