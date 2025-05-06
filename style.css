@@ -65,15 +65,13 @@
     color: black;
 }
 
-.visdevbutton {
-    margin-bottom: 0px;
-    height:62px;
-  display:block;
-    background-image: url(https://i.imgur.com/qQgWAuh.png); center top no-repeat;
-   background-size: 200px 62px;
+.visdev-hover {
+   background-image: url(https://i.imgur.com/qQgWAuh.png); center top no-repeat;
+   background-size: 200px;
 }
 
-.visdevbutton:hover {
+.visdev-hover:hover {
+    width: 200px;
     background-image: url(ttps://i.imgur.com/qQgWAuh.png); /* Change on hover */
  }
 
