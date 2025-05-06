@@ -2,6 +2,10 @@
     padding: 0px;
 
     .header {
+         /*mouse over link*/
+        a:hover {
+            color: red;
+        }
         position: sticky;
         top: 0;
         padding: 10px 16px;
@@ -9,6 +13,7 @@
         opacity: 50%;
         color: #353131;
         font-family: 'Courier New', Courier, monospace;
+
       }
 
     footer{
@@ -91,7 +96,7 @@
     .VISUALDEVELOPMENT {
         font-size: 50px;
         text-wrap: wrap;
-        align: center;
+        align-items: center;
     }
     
     .ILLUSTRATION {
@@ -134,7 +139,7 @@
     .ABOUT {
         margin-top: auto;
         margin-right,bottom,left: 15px;
-        font-size: 130px;
+        font-size: 100px;
         text-wrap: wrap;
     }
 
