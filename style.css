@@ -269,7 +269,6 @@
     .VISUALDEVELOPMENT {
         display: flex;
         padding: 50px 80px 0px 20px;
-        width: 1500px;
         font-family: avenir;
         color: black;
         font-size: 100px
@@ -287,6 +286,7 @@
     }
     
     .vdcontainer {
+        padding: auto;
         flex: 50%;
     }
 }
@@ -307,9 +307,17 @@
         grid-template-rows: masonry;
 }
 
-.COMICS {
-    font-family: Avenir;
-    font-size: 100px;
+.comicsbody {
+    padding: 50px 80px 0px 20px;
+    .COMICS {
+        padding: 50px 80px 0px 20px;
+        font-family: Avenir;
+        font-size: 100px;
+    }
+    .comicssign {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+    }
 }
 
 .About {
