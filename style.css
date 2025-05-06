@@ -66,14 +66,13 @@
 }
 
 .visdev-hover {
-   width: 200px;
-   height: 200px;
-   background-image: url(https://i.imgur.com/qQgWAuh.png); /* Initial background image */
-   background-size: cover; /* Cover the entire area of the element */
+   background-image: url(https://i.imgur.com/qQgWAuh.png); center top no-repeat;
+   background-size: 200px;
 }
 
 .visdev-hover:hover {
-    background-image: url(https://i.imgur.com/1bQG8AH.png); /* Change on hover */
+    width: 200px;
+    background-image: url(https://i.imgur.com/qQgWAuh.png); /* Change on hover */
  }
 
 .IndexHouse {
