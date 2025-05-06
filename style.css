@@ -107,6 +107,10 @@
     .icontainer {
     }
 
+    .COMICS {
+        font-size: 40px;
+    }
+
     .ABOUT {
         text-wrap: center;
         margin-left: 100px;
@@ -159,6 +163,10 @@
     .icontainer {
     }
 
+    .COMICS {
+        font-size: 40px;
+    }
+
     .About {
         margin-left: 40px;
         font-size: 90px;
@@ -209,6 +217,10 @@
     }
 
     .icontainer {
+    }
+
+    .COMICS {
+        font-size: 40px;
     }
 
     .About {
@@ -297,6 +309,11 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 30px;
         grid-template-rows: masonry;
+}
+
+.COMICS {
+    font-family: Avenir;
+    font-size: 100px;
 }
 
 .About {
