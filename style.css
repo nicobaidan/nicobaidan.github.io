@@ -1,5 +1,5 @@
 *{
-    padding: 0px;
+    margin: 0px;
 
     .header {
          /*mouse over link*/
@@ -28,49 +28,53 @@
     background-size: 100%;
     background-repeat: repeat;
     background-attachment: fixed;
+    display: cover;
 }
 
-.NB {
-    padding: 10px 0px 0px 90px;
-    margin: auto;
-    text-align: center;
-}
-
-.ID1 {
-    padding: center;
-    margin: auto;
-    text-align: center;
-    width: 500px;
-    font-family: avenir;
-    font-size: 20px;
-    color: white;
-}
-
-.ID2 {
-    padding: center;
-    margin: auto;
-    text-align: center;
-    width: 500px;
-    font-family: courier;
-    font-size: 20px;
-    color: white;
+.HOMEPAGE1 {
+    display: block;
+    .ID1 {
+        margin: auto;
+        width: 500px
+        padding: 2em;
+        text-align: center;
+        width: 500px;
+        font-family: avenir;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .ID2 {
+        margin: auto;
+        width: 500px;
+        padding: 0px 0px 5px 0px;
+        text-align: center;
+        width: 500px;
+        font-family: courier;
+        font-size: 20px;
+        color: white;
+    }
 }
 
 .Menu {
-    width: 500px;
-    align-items: center;
     margin: auto;
+    width: 500px;
+    padding: 10px;
+    align-items: center;
     display: grid;
     justify-content: center;
     color: black;
 }
 
 .IndexHouse {
-    width: 150px;
-    align: center;
     margin: auto;
+    width: 150px;
+    padding: 10px;
+    align: center;
     display: grid;
     justify-content: center;
+
+}
 }
 
 /* MEDIA QUERY */
@@ -78,10 +82,15 @@
     body {
 
     .VISUALDEVELOPMENT {
+        margin: auto;
+        width: 500px
+        padding: 2em;
+        text-align: center;
+        width: 500px;
         font-size: 50px;
-        text-wrap: flex;
         align-items: center;
     }
+
     
     .ILLUSTRATION {
         font-size: 50px;
@@ -255,29 +264,31 @@
     }
   }
 
-.VISUALDEVELOPMENT {
-    padding: 50px 80px 0px 20px;
-    width: 1500px;
-    font-family: avenir;
-    color: black;
-    font-size: 100px
-}
-
-.vdp {
-    display: flex;
-
-    p {
-        padding: 10px 80px 0px 20px;
-        width: 700px;
-        font-family: 'Courier New', Courier, monospace;
-        color: red;
-        font-size: 20px;
+.visdevbody {
+    .VISUALDEVELOPMENT {
+        display: flex;
+        padding: 50px 80px 0px 20px;
+        width: 1500px;
+        font-family: avenir;
+        color: black;
+        font-size: 100px
     }
-  }
-  
-  .vdcontainer {
-    flex: 50%;
-  }
+
+    .vdp {
+        display: flex;
+        p {
+            padding: 10px 80px 30px 30px;
+            width: 700px;
+            font-family: 'Courier New', Courier, monospace;
+            color: red;
+            font-size: 20px;
+        }
+    }
+    
+    .vdcontainer {
+        flex: 50%;
+    }
+}
 
 .ILLUSTRATION {
     padding: 50px 80px 0px 20px;
