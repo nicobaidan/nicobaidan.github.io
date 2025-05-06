@@ -65,15 +65,10 @@
     color: black;
 }
 
-.visdev-hover {
+.Visdev {
    background-image: url(https://i.imgur.com/qQgWAuh.png); center top no-repeat;
    background-size: 200px;
 }
-
-.visdev-hover:hover {
-    width: 200px;
-    background-image: url(https://i.imgur.com/qQgWAuh.png); /* Change on hover */
- }
 
 .IndexHouse {
     width: 150px;
