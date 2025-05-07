@@ -2,7 +2,6 @@
     margin: 0px;
 
     .header {
-         /*mouse over link*/
         a:hover {
             color: red;
         }
@@ -377,6 +376,9 @@
 }
 
 .Instagram {
+    a:hover {
+        color: red;
+    }
     margin: auto;
     padding: 20px 0px 0px 0px;
     width: 400px;
@@ -386,6 +388,9 @@
 }
 
 .Email {
+    a:hover {
+        color: red;
+    }
     margin: auto;
     padding: 20px 0px 50px 0px;
     width: 400px;
